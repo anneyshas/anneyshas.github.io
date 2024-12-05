@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana", "Georgia", "Arial";
+}
+
+.topnav {
+    background-color: #FDC435;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensures that nav-bar stays on the top */
+}
+
+.topnav a {
+    float: right;
+    color: #25282B;
+    font-family: "Verdana", "Georgia", "Arial";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a.active {
+    float: left;
+    padding-left: 80px;
+}
+
+.flex-landing {
+    margin-top: 60px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-landing div.landing-text {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.flex-landing div.landing-photo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.welcome {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.landing-buttons {
+    margin-top: 10px;
+    padding-left: 140px;
+
+}
+
+.landing-buttons button {
+    width: 115px;
+    height: 43px;
+    margin-left: 45px;
+    border-radius: 8px;
+    font-family: "Verdana" "Georgia" "Arial";
+    font-size: 1em;
+}
+
+.landing-project-button {
+    background-color: #FDC435;
+    border: 0px;
+}
+
+.landing-project-button:hover {
+    background-color: #e2b544;
+}
+
+
+.landing-linkedin-button {
+    background-color: white;
+}
+
+.landing-linkedin-button:hover {
+    background-color: rgb(235, 235, 235);
+}
